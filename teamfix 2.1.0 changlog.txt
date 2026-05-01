@@ -1,0 +1,36 @@
+TEAM FIX – Changlog
+v1.1.3 → v2.1.0
+
+Passou de 32 para 44 fixes (+12 novas opções)
+
+Novas funções adicionadas/atualizadas:
+(23) – Monitor Settings → resolve erros e bugs em configurações do monitor no geral (taxa, HDR, scaling e janelas do monitor)
+(34) – Quick ALT+TAB → resolve lentidão e bug no ALT+TAB após otimizações (recomendado ativar só em 22H2+)
+(35) – Clipboard WIN+V → corrige completamente o histórico da área de transferência (WIN+V)
+(36) – PIN Sign-in → remove ou repara login por PIN bugado/travado
+(37) – Password login → força login tradicional por senha (desativa Windows Hello e PIN)
+(38) – Sign in Microsoft → permite logar normalmente com conta Microsoft na Store e apps
+(39) – Keyboard Buttons → corrige teclas multimídia e Fn Lock (volume, brilho, play/pause etc), principalmente em notebooks
+(40) – Printer → reseta spooler, serviços e drivers de impressão (resolve travamento e filas)
+(41) – Realtek Audio → corrige bugs e travamentos no Realtek Audio Console
+(42) – System Defrag → restaura a janela e função de desfragmentação/TRIM (SSD e HDD)
+(43) – System Restore → restaura a janela e criação automática de ponto de restauração
+(44) – Repair Windows → executa DISM + SFC + reparação completa de arquivos e componentes do sistema (fix mais robusto)
+ 
+Renomeações & reorganização:
+Várias opções do Win11 ganharam nomes mais claros.
+“Reparar Windows” migrou para [44] e virou fix +robusto/completo.
+Pequenas correções de texto e ordem para melhor leitura.
+
+Bug histórico eliminado (NSudoLC / “arquivo não encontrado”):
+O Windows Defender apagava o NSudoLC.exe e o batch fechava sozinho.
+Agora na v2.1.0:
+→ Detecta o Defender ativo.
+→ Tenta desativar automaticamente.
+→ Se necessário, abre automaticamente a janela de configurações do Windows Defender para desativação manual.
+→ Após desativar, baixa automaticamente os arquivos necessários para funcionamento do TEAM FIX.
+→ Após isso o TEAM FIX roda 100% normal e sem bloqueio.
+
+Resumo final:
+A v2.1.0 transformou o TEAM FIX em um software de nível mais profissional. Visual totalmente atualizado, +12 fixes novos, diversos reparos, melhorias e fixes bem mais aprimorados.
+Atualização mais robusta e completa do TEAM FIX no atual momento.
